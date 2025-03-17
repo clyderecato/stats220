@@ -19,12 +19,12 @@ Which will contain all work done for my course Stats 220.
 - I don't like bugs. I would **RUN** for my dear life if I ever saw any bugs or insects.
 
 ### 4. Really random things
-  - [Hands down my favourite group](https://www.youtube.com/c/aespa){:target_blank}
+  - [Hands down my favourite group](https://www.youtube.com/c/aespa){:target="_blank"}
   - This is how it feels knowing there's free food ![](https://c.tenor.com/eSvOd2m3Qs4AAAAd/tenor.gif)
 
 ### 5. Useful Links
-- [University of Auckland Homepage](https://www.auckland.ac.nz/en.html){:target_blank}
-- [Important Dates](https://www.auckland.ac.nz/en/students/academic-information/important-dates.html){:target_blank}
-- [University of Auckland Library](https://www.auckland.ac.nz/en/library.html){:target_blank}
+- [University of Auckland Homepage](https://www.auckland.ac.nz/en.html){:target="_blank"}
+- [Important Dates](https://www.auckland.ac.nz/en/students/academic-information/important-dates.html){:target="_blank"}
+- [University of Auckland Library](https://www.auckland.ac.nz/en/library.html){:target="_blank"}
 
 A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif)
