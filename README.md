@@ -20,11 +20,13 @@ Which will contain all work done for my course Stats 220.
 
 ### 4. Really random things
   - [Hands down my favourite group](https://www.youtube.com/c/aespa)
-  - This is how it feels knowing there's free food ![](https://c.tenor.com/eSvOd2m3Qs4AAAAd/tenor.gif)
+  - This is how it feels knowing there's free food
+### ![](https://c.tenor.com/eSvOd2m3Qs4AAAAd/tenor.gif)
 
 ### 5. Useful Links
 - [University of Auckland Homepage](https://www.auckland.ac.nz/en.html)
 - [Important Dates](https://www.auckland.ac.nz/en/students/academic-information/important-dates.html)
 - [University of Auckland Library](https://www.auckland.ac.nz/en/library.html)
 
-A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif)
+A meme that captures how I currently feel about my university studies is 
+### ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif)
