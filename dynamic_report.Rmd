@@ -1,0 +1,73 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+library(tidyverse)
+
+# Reading the CSV file
+logged_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQCD8cHNzQP5URY_ltg5l-_vEcGwWWwlBTdfznm2pR0Vt3d3SgaEbSEUUrWkxQ8rgg4kVjG7LDMEEsx/pub?gid=846026211&single=true&output=csv")
+
+# Renaming columns
+latest_data <- logged_data %>%
+  rename(
+    timestamp = 1,
+    platform = 2,
+    product_type = 3,
+    ads_last_10_min = 4,
+    ad_repeats_today = 5,
+    interaction = 6,
+    ad_format = 7
+  )
+
+# Summary values 
+max_ads_shown <- max(latest_data$ads_last_10_min, na.rm = TRUE)
+min_ads_shown <- min(latest_data$ads_last_10_min, na.rm = TRUE)
+```
+
+```{css}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+```
+
+## Summary of Ads Shown 
+During the 10 minute of scrolling, the highest number of ads displayed was **`r max_ads_shown`**, while **`r min_ads_shown`** was the lowest.
+
+## Ads by Platform and Format
+The chart below shows how ads are distributed across different platforms, categorized by their ad format.
+
+```{r}
+ggplot(data = latest_data) +
+  geom_bar(aes(x = platform, fill = ad_format)) +
+  labs(
+    title = "Ads On Different Platforms Categorised by Format",
+    subtitle = "Comparing ads across different platform by their ad format",
+    x = "Platform ad was seen",
+    y = "Number of ads"
+  )
+```
+
+
+## Ads by Product Type and Platform
+The chart below shows how different type of service/product is advertised across different platforms.
+
+```{r}
+ggplot(data = latest_data) +
+  geom_bar(aes(y = product_type, fill = platform)) +
+  labs(
+    title = "Service/Product Ad Across Differnt Platforms",
+    subtitle = "Comparing ads type of service/product across different platforms",
+    x = "Number of ads",
+    y = "Types of service/product"
+  )
+```
